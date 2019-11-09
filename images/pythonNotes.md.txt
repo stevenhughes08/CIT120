@@ -264,5 +264,48 @@ print("have a great day {}:".format(first_name))
 
 ##CONDITIONAL BRACHING
 
+Type "help", "copyright", "credits" or "license" for more information.
+>>> praise = "You are doing great"
+>>> praise = praise.upper()
+>>> number_of_characters = len(praise)
+>>> result = praise + "!" * number_of_characters
+>>> print(result)
+YOU ARE DOING GREAT!!!!!!!!!!!!!!!!!!!
+
+
+>Don't repeat yourself
+>Keep your code Directory
+>Code smell: problems in code. 
+
+>The keyword to declear a new funciton is **def** for devine. 
+> Methods are just owned functions. 
+
+##Handling Exceptions
+
+> When coding you will get errors but you need to interperate these errors and for the user. You don't want the user to get technical errors they don't need to see. 
+> These are called exceptions. 
+
+> Just like with C# and JavaScript you Python allows you to use a **try:** block. 
+
+import math
+
+
+def split_check(total, number_of_people):
+    if number_of_people <= 1:
+        raise ValueError("More than 1 person is required to split the check")
+    return math.ceil(total / number_of_people)
+
+
+try:
+    total_due = float(input("What is the total? "))
+    number_of_people = int(input("How many people? "))
+    amount_due = split_check(total_due, number_of_people)
+except ValueError as err:
+    print("Oh no! That's not a valid value try again! ")
+    print("({})".format(err))
+else:
+    print("Each person owes ${}".format(amount_due))
+
+
 
 
