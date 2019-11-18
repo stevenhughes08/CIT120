@@ -14,3 +14,8 @@ print("have a great day {}:".format(first_name))
 
 # I am a python code comment. Above you will see python indents these are called decision braches and this is a decision tree.
 
+# Sudo code shows avatar if a user is logged in.
+if logged_in:
+    display_profile_avatar()
+else:
+    show_signup_and_login_buttons()

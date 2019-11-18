@@ -1,17 +1,15 @@
 ##Python Notes
 
->In python everything you create is an object. 
+> In python everything you create is an object.
 
->*Creating a variable* in Python, case matters all variables must be lower case in python. Use Snake case
+> _Creating a variable_ in Python, case matters all variables must be lower case in python. Use Snake case
 
->first _name = "Ada"
->print(first_name)
->print("These", "will be", "joined together by spaces")
-
+> first \_name = "Ada"
+> print(first_name)
+> print("These", "will be", "joined together by spaces")
 
 print("Hello Criag")
 print(hello Ada)
-
 
 PS C:\Users\srhug\source\repos\CIT120\work> cd python
 PS C:\Users\srhug\source\repos\CIT120\work\python> echo > pythonNotes.md
@@ -29,66 +27,63 @@ PS C:\Users\srhug\source\repos\CIT120\work\python> .\pythonLearn.py
 PS C:\Users\srhug\source\repos\CIT120\work\python> .\pythonLearn.py
 PS C:\Users\srhug\source\repos\CIT120\work\python>
 
-
->>> str (42)
-'42'
->>> subject_template = "Thanks for clowning {} with us {}!"
->>> subject_template.format("Python", "Charles")
-'Thanks for clowning Python with us Charles!'
->>> "ham" in "hamster"
+> > > str (42)
+> > > '42'
+> > > subject_template = "Thanks for clowning {} with us {}!"
+> > > subject_template.format("Python", "Charles")
+> > > 'Thanks for clowning Python with us Charles!'
+> > > "ham" in "hamster"
 
 #A method is a function that is owned by an object. You can access these by using dot notation.
 
 ##Booleans
->>Boolians are all tests run by computers. True or False
 
->>> "ham" in "hamster"
-True
->>> bool("")
-False
->>> bool(42)
-True
->>> Truthy or falsie
+> > Boolians are all tests run by computers. True or False
+
+> > > "ham" in "hamster"
+> > > True
+> > > bool("")
+> > > False
+> > > bool(42)
+> > > True
+> > > Truthy or falsie
 
 #Boolian discicion making
 
-
 SyntaxError: invalid syntax
->>> is_smoker = True
->>> has_kids = True
->>> has_kids and not is_smoker
-False
->>> fruit = "apples"
->>> fruit == "apples"
-True
->>> fruit == "apples 
-  File "<stdin>", line 1
+
+> > > is_smoker = True
+> > > has_kids = True
+> > > has_kids and not is_smoker
+> > > False
+> > > fruit = "apples"
+> > > fruit == "apples"
+> > > True
+> > > fruit == "apples
+> > > File "<stdin>", line 1
+
     fruit == "apples
                    ^
+
 SyntaxError: EOL while scanning string literal
->>> fruit == "apples"
-True
->>> fruit == "oranges"
-False
->>>
 
-
-
-
-
+> > > fruit == "apples"
+> > > True
+> > > fruit == "oranges"
+> > > False
 
                                                    cd ..
 
 
     Directory: C:\Users\srhug\source\repos\CIT120\work
 
+Mode LastWriteTime Length Name
 
-Mode                LastWriteTime         Length Name
-----                -------------         ------ ----
-d-----       10/28/2019  12:00 AM                python
-d-----       10/26/2019   8:22 PM                python-Tutorial
-d-----       10/29/2019   7:31 PM                unit1
+---
 
+d----- 10/28/2019 12:00 AM python
+d----- 10/26/2019 8:22 PM python-Tutorial
+d----- 10/29/2019 7:31 PM unit1
 
 PS C:\Users\srhug\source\repos\CIT120\work> cd unit1
 PS C:\Users\srhug\source\repos\CIT120\work\unit1> echo > psudocode1.html
@@ -98,141 +93,150 @@ Supply values for the following parameters:
 InputObject[0]:
 Python 3.7.5 (tags/v3.7.5:5c02a39a0b, Oct 15 2019, 01:31:54) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
->>> input ("What is your favorite color?")
-What is your favorite color?
-''
->>> help str
-  File "<stdin>", line 1
+
+> > > input ("What is your favorite color?")
+> > > What is your favorite color?
+> > > ''
+> > > help str
+> > > File "<stdin>", line 1
+
     help str
            ^
+
 SyntaxError: invalid syntax
->>> exit
-Use exit() or Ctrl-Z plus Return to exit
->>> exit
-Use exit() or Ctrl-Z plus Return to exit
->>> ^Z
+
+> > > exit
+> > > Use exit() or Ctrl-Z plus Return to exit
+> > > exit
+> > > Use exit() or Ctrl-Z plus Return to exit
+> > > ^Z
 
 PS C:\Users\srhug\source\repos\CIT120\work\unit1> python
 Python 3.7.5 (tags/v3.7.5:5c02a39a0b, Oct 15 2019, 01:31:54) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
->>> quote = "I like cats."
->>> quote.title()
-'I Like Cats.'
->>> quote.upper()
-'I LIKE CATS.'
->>> quote.lower()
-'i like cats.'
 
+> > > quote = "I like cats."
+> > > quote.title()
+> > > 'I Like Cats.'
+> > > quote.upper()
+> > > 'I LIKE CATS.'
+> > > quote.lower()
+> > > 'i like cats.'
 
 ##DATA in Python
 
->Two types:
->1. Numbers
->>>A. Floats in normal speak desmal points
->>>B. int  or integer or whole number
->2. String
+> Two types:
+>
+> 1.  Numbers
+>     > > A. Floats in normal speak desmal points
+>     > > B. int or integer or whole number
+> 2.  String
 
 ##Order of OPERATIONS in PYTHON
->>"PEMDAS - Please Excuse My Dear Aunt Sally"
->>'PEMDAS - Please Excuse My Dear Aunt Sally'
->>>1. Presedence of Multiplication
->>>2. Division
->>>3. Addition 
->>>4. Subtraction
 
+> > "PEMDAS - Please Excuse My Dear Aunt Sally"
+> > 'PEMDAS - Please Excuse My Dear Aunt Sally'
+> >
+> > > 1.  Presedence of Multiplication
+> > > 2.  Division
+> > > 3.  Addition
+> > > 4.  Subtraction
 
->>> print(_)
-I can't...
-\even
->>> round(4.6)
-5
->>> round(5.2)
-5
->>> 10 - 3 * 5 + 8
-3
->>> (10 -3) * (5 + 8)
-91
->>> "apple" + 2
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: can only concatenate str (not "int") to str
->>> num("11") + 2
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'num' is not defined
->>> int("11")
-11
->>> float("11")
-11.0
->>> int(11.9)
-11
->>> 23 / 3
-7.666666666666667
->>> 23 % 3
-2
->>>
+> > > print(\_)
+> > > I can't...
+> > > \even
+> > > round(4.6)
+> > > 5
+> > > round(5.2)
+> > > 5
+> > > 10 - 3 _ 5 + 8
+> > > 3
+> > > (10 -3) _ (5 + 8)
+> > > 91
+> > > "apple" + 2
+> > > Traceback (most recent call last):
+> > > File "<stdin>", line 1, in <module>
+> > > TypeError: can only concatenate str (not "int") to str
+> > > num("11") + 2
+> > > Traceback (most recent call last):
+> > > File "<stdin>", line 1, in <module>
+> > > NameError: name 'num' is not defined
+> > > int("11")
+> > > 11
+> > > float("11")
+> > > 11.0
+> > > int(11.9)
+> > > 11
+> > > 23 / 3
+> > > 7.666666666666667
+> > > 23 % 3
+> > > 2
 
+##Booleans are either true or false. All tests run by computers are either True or false.
 
-##Booleans are either true or false. All tests run by computers are either True or false. 
+> > Empty booleans are false.
+> >
+> > > Truthy > Falsie
+> > >
+> > > > > > bool(42)
+> > > > > > True
+> > > > > > bool("burrito")
+> > > > > > True
+> > > > > > bool("")
+> > > > > > False
 
->>Empty booleans are false. 
->>>Truthy > Falsie
->>>>>> bool(42)
-True
->>> bool("burrito")
-True
->>> bool("")
-False
+###You can string together booleans and it goes from left to right.
 
-###You can string together booleans and it goes from left to right. 
->>> True and True
-True
->>> True and True and True
-True
->>> True and True and False
-False
+> > > True and True
+> > > True
+> > > True and True and True
+> > > True
+> > > True and True and False
+> > > False
 
->>> True and True and False
-False
->>> False or True
-True
->>> False or False
-False
->>> True or False
-True
+> > > True and True and False
+> > > False
+> > > False or True
+> > > True
+> > > False or False
+> > > False
+> > > True or False
+> > > True
 
->>>To return true all both sides to be true. False returns false. 
->>>In the event you have code like this: True or False or False 
->>>><i>The first two booleans become True, because "or" requries either to be True. Then you compare the True or FAlse and follow the same rules!</i>
+> > > To return true all both sides to be true. False returns false.
+> > > In the event you have code like this: True or False or False
+> > >
+> > > > <i>The first two booleans become True, because "or" requries either to be True. Then you compare the True or FAlse and follow the same rules!</i>
 
->>Example think of a dating app. 
+> > Example think of a dating app.
 
-###HEDI has kids and she wants to find someone who has kids too, but she hates smoking. 
+###HEDI has kids and she wants to find someone who has kids too, but she hates smoking.
 
 ####What would this code look like?
 
->>> is_smoker = True
->>> has_kids = True
->>> has_kids and not is_smoker
-False
+> > > is_smoker = True
+> > > has_kids = True
+> > > has_kids and not is_smoker
+> > > False
 
->The above code would not return the man who is a smoker. 
+> The above code would not return the man who is a smoker.
 
 ##How do we make decisions in python?
 
 first_name = input("What is your first name? ")
 print("Hello,", first_name)
 if first_name == "Steve":
-    print(first_name, "is Learning Python")
+print(first_name, "is Learning Python")
 elif first_name == "Maximiliane":
-    print(first_name, "is learning with fellow students in the community! Me too!")
+print(first_name, "is learning with fellow students in the community! Me too!")
 else:
-    print("You should totally learn Python, {}!".format(first_name))
+print("You should totally learn Python, {}!".format(first_name))
 print("have a great day {}:".format(first_name))
 
 # I am a python code comment. Above you will see python indents these are called decision braches and this is a decision tree.
 
->>Equality operators
+> > Equality operators
+
 <table>
     <tr>
         <th>Symbol</th>
@@ -261,8 +265,100 @@ print("have a great day {}:".format(first_name))
     </tr>
 </table>
 
-
 ##CONDITIONAL BRACHING
 
+Type "help", "copyright", "credits" or "license" for more information.
 
+> > > praise = "You are doing great"
+> > > praise = praise.upper()
+> > > number_of_characters = len(praise)
+> > > result = praise + "!" \* number_of_characters
+> > > print(result)
+> > > YOU ARE DOING GREAT!!!!!!!!!!!!!!!!!!!
 
+> Don't repeat yourself
+> Keep your code Directory
+> Code smell: problems in code.
+
+> The keyword to declear a new funciton is **def** for devine.
+> Methods are just owned functions.
+
+##Handling Exceptions
+
+> When coding you will get errors but you need to interperate these errors and for the user. You don't want the user to get technical errors they don't need to see.
+> These are called exceptions.
+
+> Just like with C# and JavaScript you Python allows you to use a **try:** block.
+
+import math
+
+def split_check(total, number_of_people):
+if number_of_people <= 1:
+raise ValueError("More than 1 person is required to split the check")
+return math.ceil(total / number_of_people)
+
+try:
+total_due = float(input("What is the total? "))
+number_of_people = int(input("How many people? "))
+amount_due = split_check(total_due, number_of_people)
+except ValueError as err:
+print("Oh no! That's not a valid value try again! ")
+print("({})".format(err))
+else:
+print("Each person owes \${}".format(amount_due))
+
+#The While Loop
+
+## The while loop runs as long as a condition is true.
+
+> > > PasswordPchecker.py is an example
+> > >
+> > > # This is only for an exercuise this is not intended for production or validation.
+
+> > > import sys<br> > > ><br>
+> > > MASTER_PASSWORD = 'parrot'<br>
+> > > password = input("Please enter a super secret password: ")<br>
+> > > attempt_count = 1 <br>
+> > > while password != MASTER_PASSWORD:<br>
+> > > if attempt_count > 3:<br>
+> > > sys.exit(" Too many invalid password attempts")<br>
+> > > password = input("Invalid password, try again: ")<br>
+> > > attempt_count += 1<br>
+> > > print("Welcome to secret town")<br>
+
+## The for loop
+
+> > > [Python for loops]: https://wiki.python.org/moin/ForLoop
+> > > banner = "Happy Birthday!"
+> > > for letter in banner:
+> > > ... print(letter.upper())
+> > > ...
+> > > H
+> > > A
+> > > P
+> > > P
+> > > Y
+
+B
+I
+R
+T
+H
+D
+A
+Y
+!
+
+> > >
+
+> > The for loop, much like in JavaScript will run through each value.
+
+> > For iterates through all the values
+> > While runs thorugh while the value is true.
+
+> > for letter in "You got this!":
+> > if letter in "oh":
+> > print(letter)
+> > The above code outputs o o h
+
+# Trello is a great way to do SCRUM, break down taks to understand what a user wants user stories.
